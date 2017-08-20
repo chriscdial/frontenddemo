@@ -1,0 +1,36 @@
+.footer {
+    background-color: #151515;
+    min-height: 50px;
+    padding: 18px 30px;
+    text-align: left;
+}
+
+.footerElements {
+    font-size: 10px;
+    font-weight: bold;
+    color: #747474;
+    white-space:pre;
+    display: inline-block;
+    cursor: pointer;
+}
+.footerElements > img {
+    margin-left: 20px;
+}
+
+.copyright {
+    font-size: 9.95px;
+    color: #747474;
+    margin-right: 10px;
+}
+
+.btn-default {
+    font-size: 10px;
+    font-weight: bold;
+    color: #747474;
+    border: none;
+    background-color: transparent;
+}
+
+.langSelect {
+  margin-top: -3px;
+}

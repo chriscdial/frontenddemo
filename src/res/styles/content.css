@@ -1,0 +1,141 @@
+.content {
+    min-width: 1400px;
+    text-align: center;
+    clear: left;
+    background-color: #FFFFFF;
+}
+
+.content h2 {
+    color: #424242 !important;
+    font-size: 34px;
+    padding: 45px 0px 15px 0px;
+}
+
+.content .summary {
+    max-width: 690px;
+    margin: 0 auto;
+    font-size: 17.5px;
+    padding-bottom: 45px;
+}
+
+.flexMaster {
+    padding: 0;
+    margin: 0px auto;
+    list-style: none;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    justify-content: space-around;
+    max-width: 1024px;
+}
+
+.flexChild {
+    position: relative;
+    padding: 5px;
+    margin: 10px 3px 40px 3px;
+    text-align: center;
+    max-width: 240px;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.flexChild:hover {
+    z-index: 15;
+    background-color: #FFFFFF;
+    -webkit-transform: scale(1.2);
+	  transform: scale(1.2);
+    box-shadow: 0 0 0 15px rgba(255, 255, 255, 0.9);
+}
+
+.flexChild > div {
+    text-align: left;
+    margin-top: 8px;
+    min-width: 240px;
+}
+
+.flexChild > img {
+    margin-top: -5px;
+    margin-left: -5px;
+}
+
+.flexChild .title {
+    font-weight: bold;
+    font-size: 16.05px;
+    float: left;
+}
+
+.flexChild .favoriteGlyph {
+    position: absolute;
+    top: 0;
+    font-size: 12pt;
+    cursor: pointer;
+    color: #FFFFFF;
+    text-shadow: -2px 0 #424242, 0 2px #424242, 2px 0 #424242, 0 -2px #424242;
+}
+
+.flexChild .favoriteGlyph:hover {
+    text-shadow: -2px 0 #FF0062, 0 2px #FF0062, 2px 0 #FF0062, 0 -2px #FF0062;
+}
+
+.favoriteGlyph.favorite {
+    color: #FF0062 !important;
+    text-shadow: -2px 0 #FF0062, 0 2px #FF0062, 2px 0 #FF0062, 0 -2px #FF0062;
+}
+
+.flexChild .category {
+    font-family: Georgia, serif;
+    font-style: italic;
+    color: #9B9B9B;
+    font-size: 11.9px;
+    float: left;
+    clear: left;
+}
+
+.morePrograms {
+    padding-bottom: 70px;
+}
+
+.testimonial {
+    background-color: #1E1E1E;
+    min-height: 274px;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 17.5px;
+    position: relative;
+}
+
+.quotes {
+    padding-top: 45px;
+}
+
+.testimonialText {
+    padding-top: 60px;
+    margin-left: 40px;
+}
+
+.testimonialSpeaker {
+    font-family: Georgia, serif;
+    font-size: 18px;
+    font-style: italic;
+    color: #0096D6;
+    position: absolute;
+    top: 142px;
+    left: 1030px;
+}
+
+.callPhrase {
+    color: #424242;
+    font-size: 34px;
+    min-height: 136px;
+    display: inline-block;
+    padding: 38px 0px 0px 75px;
+}
+
+.inlineSpacer {
+    margin-left: 25px;
+}

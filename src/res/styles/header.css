@@ -1,0 +1,160 @@
+.headerContainer {
+    min-width: 1400px;
+    width: 1400px;
+    min-height: 121px;
+    height: 121px;
+}
+
+.header {
+    position: relative;
+    min-height: 70px;
+    max-height: 70px;
+    min-width: 1400px;
+    z-index: 10;
+    padding: 23.5px 30px;
+    text-align: center;
+    margin-top: 8px;
+}
+.header.sticky {
+    position: fixed !important;
+    top: 0px;
+    margin: 0 auto;
+}
+
+.headerElements {
+    float: right;
+    display: flex;
+    align-items: center;
+}
+.headerElements > div {
+    float: right;
+    display: inline-block;
+    min-width: 75px;
+    text-align: center;
+}
+.headerElements > div > span {
+    font-size: 13px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.sectionHeader > .headerElements > div {
+    min-width: 90px;
+}
+.sectionHeader > .headerElements > div > span {
+    font-size: 12px;
+    color: #929292;
+}
+
+.menuGlyph {
+    min-width: 15px !important;
+    max-width: 15px !important;
+    margin-top: 2px;
+    margin-left: -12px;
+}
+
+.menuGlyph {
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+
+.sectionHeader {
+    position: relative;
+    min-height: 50px;
+    max-height: 50px;
+    min-width: 1400px;
+    z-index: 8;
+    padding: 12.5px 30px;
+    text-align: center;
+    background-color: #FDFDFD;
+    filter:alpha(opacity=80);
+    -moz-opacity:0.80;
+    opacity: 0.80;
+    border-bottom: 1px solid #CECECE;
+}
+
+.sectionHeader.sticky {
+    position: fixed !important;
+    top: 70px;
+    margin: 0 auto;
+}
+
+.sectionTitle {
+  font-size: 17.5px;
+  font-weight: bold;
+  color: #424242 !important;
+}
+
+.active {
+  color: #424242 !important;
+  font-weight: bold;
+  border-bottom: 1px solid #C7C6C6;
+}
+
+.pageMenu {
+    position: absolute;
+    z-index: 9;
+    top: 70px;
+    right: 0px;
+    background-color: #1D1D1D;
+    min-width: 250px;
+    max-width: 250px;
+    padding: 0px 20px;
+    min-height: 2490px;
+    max-height: 2490px;
+    overflow: hidden;
+    max-height: 0;
+    animation-name: pageMenu;
+    -webkit-animation-name: pageMenu;
+    animation-duration: 1.6s;
+    -webkit-animation-duration: 1.6s;
+    animation-timing-function: ease;
+    -webkit-animation-timing-function: ease;
+}
+
+@keyframes pageMenu {
+    0% {
+        transform: translateX(100%);
+	  }
+    100% {
+		    transform: translateX(0%);
+    }
+}
+
+.menuSection {
+    border: none;
+}
+
+.menuSubsection-heading {
+    background-color: #1E1E1E;
+}
+
+.menuSubsection-heading > h4 > a {
+    font-size: 13px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.menuLink-heading {
+    margin-left: 5px;
+    font-size: 11.7px;
+    color: #4C4C4C;
+}
+
+.activeLink {
+    margin-left: 5px;
+    font-size: 11.7px;
+    color: #FFFFFF !important;
+}
+
+.menuButton {
+    margin-top: 40px;
+    min-width: 145px !important;
+    max-width: 145px;
+    min-height: 41px !important;
+    max-height: 41px;
+    font-size: 14.3px !important;
+}
